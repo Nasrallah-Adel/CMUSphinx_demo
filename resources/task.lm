@@ -1,0 +1,60 @@
+Language model created by QuickLM on Thu Oct 11 13:46:57 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 8 sentences and 11 words
+
+\data\
+ngram 1=11
+ngram 2=17
+ngram 3=9
+
+\1-grams:
+-0.7959 </s> -0.3010
+-0.7959 <s> -0.2253
+-1.6990 AI -0.2253
+-1.6990 APPLE -0.2253
+-1.6990 BIG -0.2923
+-1.6990 C++ -0.2253
+-1.6990 DATA -0.2253
+-1.6990 HAPPY -0.2253
+-1.6990 JAVA -0.2253
+-1.6990 SPEECH -0.2253
+-1.6990 ZEDNY -0.2253
+
+\2-grams:
+-1.2041 <s> AI 0.0000
+-1.2041 <s> APPLE 0.0000
+-1.2041 <s> BIG 0.0000
+-1.2041 <s> C++ 0.0000
+-1.2041 <s> HAPPY 0.0000
+-1.2041 <s> JAVA 0.0000
+-1.2041 <s> SPEECH 0.0000
+-1.2041 <s> ZEDNY 0.0000
+-0.3010 AI </s> -0.3010
+-0.3010 APPLE </s> -0.3010
+-0.3010 BIG DATA 0.0000
+-0.3010 C++ </s> -0.3010
+-0.3010 DATA </s> -0.3010
+-0.3010 HAPPY </s> -0.3010
+-0.3010 JAVA </s> -0.3010
+-0.3010 SPEECH </s> -0.3010
+-0.3010 ZEDNY </s> -0.3010
+
+\3-grams:
+-0.3010 <s> AI </s>
+-0.3010 <s> APPLE </s>
+-0.3010 <s> BIG DATA
+-0.3010 <s> C++ </s>
+-0.3010 <s> HAPPY </s>
+-0.3010 <s> JAVA </s>
+-0.3010 <s> SPEECH </s>
+-0.3010 <s> ZEDNY </s>
+-0.3010 BIG DATA </s>
+
+\end\
