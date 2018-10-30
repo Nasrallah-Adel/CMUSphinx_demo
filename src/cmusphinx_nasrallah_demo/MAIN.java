@@ -38,9 +38,9 @@ public class MAIN extends javax.swing.JFrame {
             // Set path to the acoustic model.
             configuration.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
             // Set path to the dictionary.
-            configuration.setDictionaryPath("file:/home/nasrallah/NetBeansProjects/CMUSphinx_demo/resources/task.dic");
+            configuration.setDictionaryPath("file:/home/amr/Documents/CMUSphinx_demo/resources/task.dic");
             // Set path to the lm file.
-            configuration.setLanguageModelPath("file:/home/nasrallah/NetBeansProjects/CMUSphinx_demo/resources/TASK.lm");
+            configuration.setLanguageModelPath("file:/home/amr/Documents/CMUSphinx_demo/resources/TASK.lm");
             recognizer = new LiveSpeechRecognizer(configuration);
 
         } catch (IOException ex) {
@@ -168,7 +168,7 @@ public class MAIN extends javax.swing.JFrame {
             SpeechResult result = recognizer.getResult();
 
             recognize_area.setText(recognize_area.getText() + "\n say ( " + i++ + " ) ->" + result.getHypothesis());
-
+   
             recognizer.stopRecognition();
 
             start_stop.setText("start Recognize");
